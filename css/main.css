@@ -31,12 +31,16 @@ Table Of Contents
 
 body {
     font-family: 'Montserrat', sans-serif;
-	background-color: #050828;
+	background-color: #f6f7fb;
 	overflow-x: hidden;
 }
 
+body p {
+    color: #3c445a;
+}
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Michroma', sans-serif;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -133,7 +137,7 @@ select:-webkit-autofill:focus {
 
 .main-title {
     margin-bottom: 50px;
-    color: #fff;
+    color: #0b1124;
     font-size: 28px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
@@ -268,8 +272,8 @@ select:-webkit-autofill:focus {
     font-weight: 500;
     display: flex;
     align-items: center;
-    color: #fff;
-    font-family: 'Michroma', sans-serif;
+    color: #0b1124;
+    font-family: sans-serif;
 }
 
 .header .header-inner .logo a img {
@@ -364,7 +368,7 @@ select:-webkit-autofill:focus {
     font-family: "Chakra Petch", sans-serif;
     position: relative;
     display: block;
-    color: #fff;
+    color: #0b1124;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -482,7 +486,7 @@ select:-webkit-autofill:focus {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    color: #fff;
+    color: #0b1124;
     font-size: 13px;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -607,7 +611,7 @@ select:-webkit-autofill:focus {
 .header .header-inner .mobile-button:before,
 .header .header-inner .mobile-button:after,
 .header .header-inner .mobile-button span {
-    background-color: #fff;
+    background-color: #0b1124;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
     transition: all ease 0.3s;
@@ -654,9 +658,9 @@ select:-webkit-autofill:focus {
     top: -106px;
     left: 0;
     width: 100%;
-    background-color: rgb(5 8 40 /80%);
-    backdrop-filter: blur(15px);
-    box-shadow: 0px 5px 9px rgb(0 0 0 / 11%), inset 0px 1px 0px #ebe9e9;
+    background-color: rgba(255,255,255,.9);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 6px 24px rgba(2, 6, 23, 0.06);
     opacity: 0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -679,8 +683,7 @@ select:-webkit-autofill:focus {
 .home {
     position: relative;
     overflow: hidden;
-    background: url('../images/footer-animation-bg.svg') center center;
-    background-size: cover;
+    background: radial-gradient(1200px 400px at 20% 0%, #ffd3b6 0%, #ffb4e1 40%, #b9c6ff 80%), #ffffff;
     padding-top: 115px;
 }
 
@@ -690,7 +693,7 @@ select:-webkit-autofill:focus {
 
 .home .home-content h1 {
     position: relative;
-	color: #fff;
+	color: #0b1124;
     font-size: 45px;
     font-weight: 700;
     text-transform: capitalize;
@@ -722,7 +725,7 @@ select:-webkit-autofill:focus {
 }
 
 .home .home-content p {
-    color: #d1cccc;
+    color: #3c445a;
     font-size: 17px;
     font-weight: 400;
     line-height: 1.8;
@@ -918,8 +921,8 @@ select:-webkit-autofill:focus {
 }
 
 .feature-item {
-    background: rgba(255, 255, 255, 0.03);
-    border: 2px solid rgba(255, 255, 255, 0.1);
+    background: #ffffff;
+    border: 1px solid #edf0f7;
     padding: 20px;
     border-radius: 24px;
     -webkit-transition: all 0.3s ease;
@@ -930,7 +933,7 @@ select:-webkit-autofill:focus {
 }
 
 .feature-item:hover {
-    border: 2px solid #02c5f7;
+    border: 1px solid #cfd7ff;
     transform: translateY(-10px);
 }
 
@@ -940,13 +943,13 @@ select:-webkit-autofill:focus {
 
 .features .feature-item h3 {
     font-size: 18px;
-    color: #fff;
+    color: #0b1124;
     line-height: 1.5;
     margin-bottom: 15px;
 }
 
 .features .feature-item p {
-    color: #d1cccc;
+    color: #3c445a;
     font-size: 17px;
     font-weight: 400;
     line-height: 1.8;
@@ -980,7 +983,7 @@ select:-webkit-autofill:focus {
 }
 
 .about p {
-    color: #d1cccc;
+    color: #141414ee;
     font-size: 17px;
     font-weight: 400;
     line-height: 1.8;
@@ -994,7 +997,7 @@ select:-webkit-autofill:focus {
     display: flex;
     align-items: center;
     gap: 16px;
-    color: #d1cccc;
+    color: #141414ee;
     font-size: 17px;
     font-weight: 400;
     line-height: 2;
@@ -1035,8 +1038,8 @@ select:-webkit-autofill:focus {
 }
 
 .service-item {
-    background: rgba(255, 255, 255, 0.03);
-    border: 2px solid rgba(255, 255, 255, 0.1);
+    background: #ffffff;
+    border: 1px solid #edf0f7;
     padding: 20px;
     border-radius: 24px;
     -webkit-transition: all 0.3s ease;
@@ -1047,7 +1050,7 @@ select:-webkit-autofill:focus {
 }
 
 .service-item:hover {
-    border: 2px solid #02c5f7;
+    border: 1px solid #cfd7ff;
     transform: translateY(-10px);
 }
 
@@ -1057,13 +1060,13 @@ select:-webkit-autofill:focus {
 
 .services .service-item h3 {
     font-size: 18px;
-    color: #fff;
+    color: #0b1124;
     line-height: 1.5;
     margin-bottom: 15px;
 }
 
 .services .service-item p {
-    color: #d1cccc;
+    color: #3c445a;
     font-size: 17px;
     font-weight: 400;
     line-height: 1.8;
@@ -1143,7 +1146,7 @@ select:-webkit-autofill:focus {
 
 .roadmap-item {
     position: relative;
-    color: #fff;
+    color: #0b1124;
     width: 48%;
     padding: 0 40px;
     margin-bottom: 117px;
@@ -1212,8 +1215,9 @@ select:-webkit-autofill:focus {
 
 .roadmap-item-inner {
     position: relative;
-    background: rgba(255, 255, 255, 0.03);
-    border: 2px solid rgba(255, 255, 255, 0.1);
+    background: #ffffff;
+    border: 1px solid #edf0f7;
+    box-shadow: 0 8px 24px rgba(2, 6, 23, 0.06);
     padding: 35px 30px;
     border-radius: 24px;
     z-index: 1;
@@ -1222,13 +1226,13 @@ select:-webkit-autofill:focus {
 .roadmap-item-inner h4 {
     font-size: 18px;
     line-height: 1.5;
-    color: #fff;
+    color: #0b1124;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
 .roadmap-item-inner p {
-    color: #d1cccc;
+    color: #3c445a;
     font-size: 17px;
     font-weight: 400;
     line-height: 1.8;
@@ -1537,7 +1541,7 @@ select:-webkit-autofill:focus {
     text-decoration: none;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    color: #fff;
+    color: #0b1124;
     font-size: 17px;
     line-height: 1.1;
     width: 100%;
@@ -1554,7 +1558,7 @@ select:-webkit-autofill:focus {
     right: 9px;
     font-size: 22px;
     font-weight: 700;
-    color: #fff;
+    color: #0b1124;
     width: 43px;
     height: 43px;
     line-height: 44px;
@@ -1568,7 +1572,7 @@ select:-webkit-autofill:focus {
 }
 
 .faq .card .card-body {
-	color: #d1cccc;
+    color: #3c445a;
     font-size: 17px;
     font-weight: 400;
     line-height: 1.8;
@@ -1803,7 +1807,7 @@ select:-webkit-autofill:focus {
 .contact .contact-form .form-group .form-control {
     background: transparent;
     border: 1px solid #27344c;
-    color: #fff;
+    color: #27344c;
     outline: none;
     box-shadow: none;
     border-radius: 24px;
@@ -1812,7 +1816,7 @@ select:-webkit-autofill:focus {
 }
 
 .contact .contact-form .form-group .form-control::placeholder {
-    color: #fff;
+    color: #27344c;
 }
 
 .contact .contact-form .form-group textarea.form-control {
@@ -1851,17 +1855,16 @@ select:-webkit-autofill:focus {
 -----------------------------------------*/
 
 .footer {
-    background: #040722;
+    background: #ffffff;
     margin-top: 120px;
-    border-top: 1px solid #0b0e28;
+    border-top: 1px solid #edf0f7;
 }
 
 .footer .footer-top { 
-    background: url(../images/footer-animation-bg.svg) center center;
-    background-size: cover;
+    background: radial-gradient(1000px 300px at 10% 0%, #ffd3b6 0%, #ffb4e1 40%, #b9c6ff 80%), #ffffff;
 	padding-top: 80px;
     padding-bottom: 80px;
-	border-bottom: 1px solid #0b0e28;
+    border-bottom: 1px solid #edf0f7;
 }
 
 .footer .footer-top .footer-menu {
@@ -1879,8 +1882,8 @@ select:-webkit-autofill:focus {
     font-weight: 500;
     display: flex;
     align-items: center;
-    color: #fff;
-    font-family: 'Michroma', sans-serif;
+    color: #0b1124;
+    font-family: sans-serif;
 }
 
 .footer .footer-top .footer-logo a img {
@@ -1896,7 +1899,7 @@ select:-webkit-autofill:focus {
 }
 
 .footer .footer-top .footer-menu p {
-    color: #d1cccc;
+    color: #3c445a;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.8;
@@ -1914,7 +1917,7 @@ select:-webkit-autofill:focus {
 }
 
 .footer .footer-top .footer-item h4 {
-	color: #fff;
+	color: #0b1124;
     font-size: 19px;
     font-weight: 700;
     letter-spacing: .7px;
@@ -1988,13 +1991,13 @@ select:-webkit-autofill:focus {
 
 .footer .footer-bottom { 
 	padding: 20px 0;
-    background: #050828;
+    background: #ffffff;
 }
 
 .footer .footer-bottom .copyright p { 
 	letter-spacing: .3px;
 	margin: 0;
-    color: #ebe9e9;
+    color: #3c445a;
     font-size: 17px;
     font-weight: 400;
     line-height: 1.8;
